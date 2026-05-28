@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Sofia Morales</title>
+    <link rel="icon" href="Recursos/Img/logocapuilliez.png" type="image/png">
+
+    <style>
+        /*CSS-Diseño*/
+        html, body{
+            height: 100%;
+            margin: 0%;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        header{
+            padding: 20px;
+            background-color: rgb(40, 30, 89);
+            padding: 20px;
+            background-color: rgb(40, 30, 89);
+            color: white;
+        }
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto ; 
+        }
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px solid rgb(12, 4, 48);
+            background-color: rgb(151, 169, 254);
+        }
+        h1 {
+            color: white;
+            text-shadow: 
+            0 0 5px #fff,          
+            0 0 10px #a020f0,      
+            0 0 20px #a020f0,      
+            0 0 40px #6a0dad;      
+        }
+        footer img {
+            transition: transform 0.3s ease;
+        }
+        footer img:hover {
+            transform: scale(1.2);
+        }
+        .semana {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .semana:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-color: #a020f0; /* Un toque morado al pasar el mouse */
+}
+
+        .semana h2 {
+            margin-top: 0;
+        color: #281e59;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitácora Segunda y Tercera Unidad</h1> 
+    </header>
+    <main>
+        <h4>Contenido de la página WEB</h4>
+
+    <div class="semana">
+    <h2>Semana 1: Introducción a Arduino</h2>
+    <p>Arduino es una plataforma de creación electrónica basada en hardware y software libre[cite: 4, 6]. En esta clase aprendimos las partes de la placa y la diferencia entre señales digitales y analógicas[cite: 20, 41, 44].</p>
+    
+    <iframe src="Introducción ArduinoBentzen.pdf" width="100%" height="400px" style="border: none; border-radius: 8px;"></iframe>
+    
+    <br><br>
+    <a href="Introducción ArduinoBentzen.pdf" target="_blank">📄 Abrir PDF en pantalla completa</a>
+</div>
+
+    <div class="semana">
+    <h2>Semana 2: Estilos y Simulación</h2>
+    <p>En esta semana trabajamos en la simulación de un circuito con tres LEDs en Tinkercad, utilizando código para controlar su encendido y apagado.</p>
+    
+    <video width="100%" height="auto" controls style="border-radius: 8px;">
+        <source src="leds.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+    </video>
+</div>
+    </main>
+    <footer>
+        <span>@sofiibenz</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="25" width="100">
+    </footer> 
+    
+</body>
+</html>
